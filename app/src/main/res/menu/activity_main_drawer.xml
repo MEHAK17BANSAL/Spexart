@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/grp0">
+
+        <item
+            android:title="Eyeglasses"
+            android:id="@+id/explore"
+           >
+            <menu>
+
+                <item android:title="          Women Eyeglasses"
+
+                    android:id="@+id/we"/>
+                <item android:title="          Men Eyeglasses"
+
+                    android:id="@+id/me"/>
+                <item android:title="          Unisex Eyeglasses"
+
+                    android:id="@+id/ke"/>
+
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/grp1">
+        <item
+            android:title="Sunglasses"
+            android:id="@+id/oh"
+         >
+            <menu>
+
+                <item android:title="          Women Sunglasses"
+
+                    android:id="@+id/sw"/>
+                <item android:title="          Men Sunglasses"
+
+                    android:id="@+id/sm"/>
+                <item android:title="          Kids Sunglasses"
+
+                    android:id="@+id/sk"/>
+
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/grp2">
+        <item
+            android:title="Contact Information"
+            android:id="@+id/ci"
+            android:icon="@drawable/ci">
+
+        </item></group>
+
+    <group android:id="@+id/grp3">
+
+        <item android:title="Explore"
+            android:id="@+id/nl"
+
+            android:icon="@drawable/ci">
+            <menu>
+                <item
+                    android:title="          About Us"
+                    android:id="@+id/au"
+                    />
+                <item
+                    android:title="          Tips"
+                    android:id="@+id/t"
+                    />
+                <item
+                    android:title="          Frames"
+                    android:id="@+id/f"
+                    />
+                <item
+                    android:title="          Lenses"
+                    android:id="@+id/l"
+                    />
+            </menu>
+        </item>
+
+    </group>
+
+
+
+</menu>
